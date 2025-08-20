@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Website</title>
+    <link rel="stylesheet" href="proj2.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- interface -->
+    <header class="main-header">
+        <h2 class="logo">OurGarden</h2>
+        <nav class="navigation">
+            <a href="#" id="home-button" class="active">Home</a>
+            <a href="#" id="sign-in-button">Sign In</a>
+            <a href="#" id="plant-button">Plant</a>
+            <a href="#" id="community-button">Community</a>
+        </nav>
+    </header>
+
+    
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="plant">
+            <img src="hill1.png" id="hill1" alt="Hill1">
+            <img src="hill2.png" id="hill2" alt="Hill2">
+            <img src="hill3.png" id="hill3" alt="Hill3">
+            <img src="hill4.png" id="hill4" alt="Hill4">
+            <img src="hill5.png" id="hill5" alt="Hill5">
+           
+            <h2 id="text">OurGarden</h2>
+            <img src="leaf.png" id="leaf" alt="Leaf">
+            <img src="plant.png" id="plant" alt="Plant">
+        </div>
+        <div class="sec">
+            <h2>OurGarden</h2>
+            <p>Website that aims to promote urban gardening and sustainable living by providing resources and guidance for individuals interested in starting their own indoor or outdoor gardens. This website offers comprehensive guides on topics such as container gardening, vertical gardening, composting, water conservation techniques, and selecting climate-appropriate plants. It features instructional videos, blog posts, and interactive tools to help users plan and maintain their gardens throughout the year. Additionally, it provides information on local gardening events, community gardens, and resources for sourcing organic seeds and supplies. By empowering individuals to grow their own food and cultivate green spaces in urban environments, this website contributes to environmental sustainability, promotes healthier lifestyles, and fosters a stronger sense of community connection.</p>
+        </div>
+    </section>
+
+    <!-- Plant List Section -->
+    <section id="plant-list-container" class="section">
+        <header class="plant-header">
+            <h1>Indoor Plants</h1>
+        </header>
+        <main>
+            <ul id="plant-list">
+                <li>
+                    <a href="#" class="yellow-link plant-link" data-name="Parlor Palm" data-desc="These lush, tropical fronds makes a beautiful addition to any room, not to mention, they purify the air. Parlor palms love humidity, so you may want to mist the leaves frequently, but as for watering, every one to two weeks should suffice. With proper care, they can grow tall — think up to six feet! Watering: Every one to two weeks Sunlight: Medium to bright, indirect light, but can tolerate low light" data-img="Parlor Palm.jpg"  vid-title="Parlour Palm Plant Care Tips" data-vid="parlour.mp4" data-url="https://www.amazon.com/dp/B07BC3NLNW?ots=1&linkCode=ogi&tag=goodhousekeeping_auto-append-20&ascsubtag=%5Bartid%7C10055.g.1285%5Bsrc%7Cwww.google.com%5Bch%7C%5Blt%7C%5Bpid%7C59ac0bd1-bc87-412a-acea-b5562675ff8d%5Baxid%7Cb07d14fb-87f4-4d43-84a7-20d8c6936661&th=1">Parlor Palm</a>
+                </li>
+                <li>
+                    <a href="#" class="orange-link plant-link" data-name="Fiddle Leaf Fig" data-desc="Arguably one of the most popular indoor trees, the fiddle leaf fig is known for its large, broad leaves. We'll admit they're pricey, but they're true statement pieces in home — and will bring years and years of joy with proper care. It loves bright direct sunlight, but can also tolerate indirect light. Watering: Every 7 to 10 days Sunlight: Bright light, direct or indirect" data-img="Fiddle Leaf Fig.jpg" vid-title="How To Care For A Fiddle Leaf Flg" data-vid="fiddle.mp4"  data-url="https://www.thesill.com/products/large-fiddle-leaf-fig-tree?variant=39921490624617&irclickid=zQmwqBxMdxyKUiyQKow1xTgjUkHVFWz5FyzmSE0&irgwc=1">Fiddle Leaf Fig</a>
+                </li>
+                <li>
+                    <a href="#" class="yellow-link plant-link" data-name="Chinese Evergreen" data-desc="Also known as Aglaonema, the Chinese Evergreen is a great pick if you're looking for a trouble-free houseplant, providing you follow proper growing conditions. It only needs watering every 5 to 10 days (watch out for soggy soil) and low to bright indirect sunlight to keep it intact. You can find varieties with green leaves adorned in bold stripes ranging from silver to red. Watering: Every five to 10 days Sunlight: Low to bright indirect light Take note: This plant is toxic to cats and dogs." data-img="Chinese Evergreen.png" vid-title="How To Grow & Care for Chinese Evergreen" data-vid="chinease.mp4" data-url="https://www.walmart.com/ip/Red-Aglaonema-Evergreen-4-25-Grow-Pot-Easy-Live-Plant-Filtered-Sun-Element-by-Altman-Plants/5296781444?selected=true&clickid=S5UzNoxMdxyKUiyQKow1xTgjUkHVFTRVFyzmSE0&irgwc=1&sourceid=imp_S5UzNoxMdxyKUiyQKow1xTgjUkHVFTRVFyzmSE0&veh=aff&wmlspartner=imp_3006986&affiliates_ad_id=565706&campaign_id=9383&sharedid=">Chinese Evergreen</a>
+                </li>
+                <li>
+                    <a href="#" class="orange-link plant-link" data-name="Orchid" data-desc="When it comes to low-maintenance flowering plants, you'd be hard-pressed to find a better option than an orchid. Don't overwater them (once a week will do) and give this popular pick bright, indirect light. We especially love them for offices! Watering: Once per week Sunlight: Bright, indirect light" data-img="Orchid.jpg" data-name="Fiddle Leaf Fig" data-desc="Arguably one of the most popular indoor trees, the fiddle leaf fig is known for its large, broad leaves. We'll admit they're pricey, but they're true statement pieces in home — and will bring years and years of joy with proper care. It loves bright direct sunlight, but can also tolerate indirect light. Watering: Every 7 to 10 days Sunlight: Bright light, direct or indirect" data-img="Fiddle Leaf Fig.jpg" vid-title="All Types of Orchild Plants" data-vid="orchid.mp4"  data-url="https://www.ikea.com/sa/en/p/fejka-artificial-potted-plant-orchid-white-80285909/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Decoration&gad_source=1&gclid=CjwKCAjw9cCyBhBzEiwAJTUWNaC-QVcpaVju9VtIG2Zp5aA-1bEI1_29U2a9rn9UsdZD-EnzKnJ3exoCaQkQAvD_BwE">Orchid</a>
+                </li>
+                <li>
+                    <a href="#" class="yellow-link plant-link" data-name="Peace Lily" data-desc="Peace lilies, or Spathiphyllum, are ideal for those who tend to overwater plants. Not to mention the tropical houseplant helps toxins and purify the air. Give it sufficient light, and you'll see their spade-shaped flowers flourish over time. They can tolerate low light, but there may be less blooms. Watering: Once per week Sunlight: Bright, indirect light, but can tolerate low light Take note: This plant is toxic to cats and dogs." data-img="Peace Lily.jpg" vid-title="How To Care for Peace Lily" data-vid="peace.mp4" data-url="https://www.matalanme.com/sa_en/peace-lily-ribbed-pot-62cm?utm_source=Google&utm_medium=Google_Ads&utm_campaign=Google_Pmax_KSA_WAC_23April2024_Matalan&campaignid=21224993440&adgroupid=&targetid=&adtype=pla&utm_term=&keyword_matchtype=&utm_device=c&device_model=&creative=&placement=&target=&loc_physical_ms=9076786&loc_interest_ms=&product_id=M69802900000&gad_source=1&gclid=CjwKCAjw9cCyBhBzEiwAJTUWNWv8ZCgKrrCIHXonqmxnXRKEkYfTr43kQxwwEa8yiO00vw3FpMxkDhoCQQEQAvD_BwE">Peace Lily</a>
+                </li>
+                <li>
+                    <a href="#" class="orange-link plant-link" data-name="Rubber Plant" data-desc="You can't go wrong with this low-maintenance plant that's native to Asia. With consistent pruning and low indirect light area, you'll witness its beauty. When it comes to watering, it should only be done when the soil is on the dry side (about once a week). Watering: Once per week Sunlight: Bright, indirect light Take note: This plant is toxic to cats and dogs." data-img="Rubber Plant.jpg" vid-title="How To Care For Rubber Tree" data-vid="rubber.mp4" data-url="https://www.amazon.com/dp/B07BC8W8KH?ots=1&linkCode=ogi&tag=goodhousekeeping_auto-append-20&ascsubtag=%5Bartid%7C10055.g.1285%5Bsrc%7Cwww.google.com%5Bch%7C%5Blt%7C%5Bpid%7C228f0d7f-e7a3-4914-8efc-9705538819c3%5Baxid%7C5d9dfc1b-cd16-4231-8eaa-73070c405690">Rubber Plant</a>
+                </li>
+            </ul>
+            <div id="plant-details" class="plant-details">
+                <h2 id="plant-name">Plant Name</h2>
+                <img id="plant-img" src="" alt="Plant Image">
+                <p id="plant-desc">Plant description will appear here.</p>
+                <h3 id="video-title">video title shown here</h3>
+                <video id="plant-video"  controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a id="plant-url" href="#" target="_blank">Buy this plant</a>
+            </div>
+        </main>
+    </section>
+
+    <!-- Sign-In Section -->
+    <section id="sign-in" class="section">
+        <div class="sign-in-container">
+            <h2>Sign In</h2>
+            <form id="sign-in-form">
+                <label for="username">Email or Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign In</button>
+            </form>
+            <div class="options">
+                <p> Don't have an account? <a href="#" id="create-account-link">Create an account</a></p>
+                <br>
+                <a href="#" id="forgot-password-link">I forgot the password</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Create Account Section -->
+    <section id="create-account" class="section">
+        <div class="create-account-container">
+            <h2>Create Account</h2>
+            <form id="create-account-form">
+                <label for="new-email">Email:</label>
+                <input type="email" id="new-email" name="new-email" required>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Create Account</button>
+            </form>
+            <div class="options">
+                <p> Already have an account? <a href="#" id="log-in-link">Sign In</a></p>
+                <br>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Forgot Password Section -->
+    <section id="forgot-password" class="section">
+        <div class="forgot-password-container">
+            <h2>Forgot Password</h2>
+            <form id="forgot-password-form">
+                <label for="forgot-email">Email:</label>
+                <input type="email" id="forgot-email" name="forgot-email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section">
+        <div class="container">
+            <div class="container__left">
+                <h1>Read what our customers love about us</h1>
+                <br><br>
+                <p>Users can explore a variety of plants, many indoor plants for therapeutic plants, learn everything about them, including origin, requirements, requirements, and improve them well. In addition, we provide tips and advice on how to make plant rugs in an effective and simple way, making the plant care experience fun and rewarding for everyone.</p>
+                <p><br>
+                    We present real stories of people who have used the knowledge and tips provided by her rules to create authentically beautiful plant environments or their offices, and how it contributes to their mood and overall health. We also share stories of how clients achieved their educational goals through the knowledge our site provides.
+                </p>
+                <br>
+                <button>Read our success stories</button>
+            </div>
+            
+        </div>
+        
+
+        <div class="container">
+            <div class="testimonials" >
+                <h1>What Our Community Says</h1>
+                <div class="testimonial-carousel">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"I loved the experience of browsing the site. The innovation of finding plants to share, and a very helpful contribution in helping me care for them properly."</p>
+                            <h4>- Sara Ali</h4>
+                            <div class="testimonial-actions">
+                                <button class="like-button">Like</button>
+                                <button class="share-button">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Great site! Offers a variety of plants with detailed information on how to care for them. I really benefited from the care tips for growing more plants at home."</p>
+                            <h4>- Ahmad Khalid</h4>
+                            <div class="testimonial-actions">
+                                <button class="like-button">Like</button>
+                                <button class="share-button">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Excellent site for plant lovers! Provides extensive information about different types of plants and their care. This site has helped me a lot in learning more about plants and their growing skills."</p>
+                            <h4>- Abdallah Mohamed</h4>
+                            <div class="testimonial-actions">
+                                <button class="like-button">Like</button>
+                                <button class="share-button">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional testimonials here -->
+                </div>
+            </div>
+            </div>
+            <!-- Review Section at the bottom of the community page -->
+        </div>
+            <div class="write-review-section">
+            <h2>Write a Review</h2>
+            <form id="review-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+            
+            <div class="join-community">
+                <br>
+                <h2>Join Our Community</h2>
+                <p>Get access to exclusive tips, discussions, and resources to enhance your gardening journey.</p>
+                <button id="join_btn" class="join-button">Join Now</button>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="proj2.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
